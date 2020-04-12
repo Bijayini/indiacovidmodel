@@ -274,7 +274,7 @@ exports[`App should match snapshot 1`] = `
           <h1
             class="heading"
           >
-            Params
+            Interventions
           </h1>
           <button
             type="submit"

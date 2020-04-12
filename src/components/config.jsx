@@ -224,7 +224,7 @@ const nodeParamConfig = [
 ];
 
 const paramConfig = {
-  label: 'Params',
+  label: 'Interventions',
   fieldKey: 'nodal_param_change',
   paramKeys: [
     'rates',
