@@ -1,0 +1,78 @@
+{
+  "name": "Covid19",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Bijayini Parhi",
+  "engines": {
+    "npm": "6.14.4",
+    "node": "10.15.0"
+  },
+  "scripts": {
+    "dev": "webpack --env dev && nodemon server.js",
+    "heroku-prebuild": "npm install --dev",
+    "dev:debug": "webpack --env dev && DEBUG=express:* nodemon server.js",
+    "build": "webpack  --env prod",
+    "build:dev": "webpack  --env dev",
+    "start": "NODE_ENV=production npm build && node ./server.js",
+    "test": "jest",
+    "update-snapshot": "jest -u",
+    "lint": "eslint src --fix",
+    "format": "prettier ./src/**/*.{js,jsx,css,html,md,json,spec.jsx,spec.js} --config .prettierrc --write"
+  },
+  "lint-staged": {
+    "*.{js,jsx,css,html,md,json,spec.jsx,spec.js}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-router-dom": "5.0.1",
+    "webpack": "^4.42.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@babel/plugin-proposal-class-properties": "7.4.4",
+    "@babel/plugin-transform-runtime": "7.4.4",
+    "@babel/preset-env": "7.4.5",
+    "@babel/preset-react": "7.0.0",
+    "@material-ui/core": "^4.9.9",
+    "@testing-library/react": "8.0.1",
+    "babel-eslint": "10.0.2",
+    "babel-jest": "24.8.0",
+    "babel-loader": "8.0.6",
+    "clean-webpack-plugin": "3.0.0",
+    "copy-webpack-plugin": "5.1.1",
+    "error-overlay-webpack-plugin": "0.4.0",
+    "eslint": "5.16.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-prettier": "5.0.0",
+    "eslint-plugin-import": "2.17.3",
+    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-prettier": "3.1.0",
+    "eslint-plugin-react": "7.13.0",
+    "eslint-plugin-react-hooks": "1.6.0",
+    "html-webpack-plugin": "3.2.0",
+    "husky": "^2.4.1",
+    "jest": "24.8.0",
+    "jest-dom": "3.5.0",
+    "lint-staged": "8.2.1",
+    "nodemon": "1.19.0",
+    "prettier": "1.18.2",
+    "webpack-cli": "3.3.4",
+    "webpack-dev-server": "3.7.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "yarn jest --no-cache"
+    }
+  }
+}

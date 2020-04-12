@@ -1,0 +1,496 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match snapshot 1`] = `
+<div>
+  <div>
+    <header
+      style="color: rgb(255, 255, 255); background: rgb(23, 78, 166); font-size: 15px; padding: 5px 30px; display: block;"
+    >
+      <h1>
+        Covid19
+      </h1>
+    </header>
+    <div
+      class="wrapper"
+      style="margin: 0px 20px;"
+    >
+      <h1
+        style="font-size: 20px; padding-left: 20px;"
+      >
+        Global Details
+      </h1>
+      <div
+        class="form-wrap"
+      >
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="pop_frac"
+              id="pop_frac-label"
+            >
+              Population frac of different age groups
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="pop_frac"
+                name="pop_frac"
+                placeholder="Population frac of different age groups"
+                type="text"
+                value="0.44,0.35,0.15,0.06"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    Population frac of different age groups
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="rate_frac"
+              id="rate_frac-label"
+            >
+              Rate multiplier
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="rate_frac"
+                name="rate_frac"
+                placeholder="Rate multiplier"
+                type="text"
+                value="1, 1, 1, 1"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    Rate multiplier
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="CFR"
+              id="CFR-label"
+            >
+              Case Fatality rate by age groups
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="CFR"
+                name="CFR"
+                placeholder="Case Fatality rate by age groups"
+                type="text"
+                value="0.003, 0.03 , 0.12 , 0.24"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    Case Fatality rate by age groups
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="P_SEVERE"
+              id="P_SEVERE-label"
+            >
+              Hospitalization rate by age groups
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="P_SEVERE"
+                name="P_SEVERE"
+                placeholder="Hospitalization rate by age groups"
+                type="text"
+                value="0.05,  0.15, 0.30, 0.75"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    Hospitalization rate by age groups
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="I0"
+              id="I0-label"
+            >
+              Number of infections actively circulating
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="I0"
+                name="I0"
+                placeholder="Number of infections actively circulating"
+                type="text"
+                value="50"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    Number of infections actively circulating
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="E0"
+              id="E0-label"
+            >
+              Number of infections actively circulating
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="E0"
+                name="E0"
+                placeholder="Number of infections actively circulating"
+                type="text"
+                value="100"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    Number of infections actively circulating
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          class="box"
+        >
+          <h1
+            class="heading"
+          >
+            Params
+          </h1>
+          <button
+            style="background: rgb(23, 78, 166); color: rgb(255, 255, 255); padding: 10px 20px; border-radius: 3px; font-size: 16px;"
+            type="submit"
+          >
+            Add Param +
+          </button>
+          <style
+            global="true"
+            jsx="true"
+          >
+            
+        .cloning-element {
+          display: flex;
+          padding: 35px 0 15px;
+        }
+        .flex-item {
+          width: 33%;
+        }
+      
+          </style>
+        </div>
+        <div
+          class="box"
+        >
+          <h1
+            style="font-size: 20px;"
+          >
+            Please add Node details
+          </h1>
+          <div
+            style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+          >
+            <div
+              class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+            >
+              <label
+                class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+                data-shrink="false"
+                for="no_of_node"
+                id="no_of_node-label"
+              >
+                Please provide no of nodes
+              </label>
+              <div
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiInputBase-input MuiOutlinedInput-input"
+                  id="no_of_node"
+                  name="no_of_node"
+                  placeholder="Please provide no of nodes"
+                  type="text"
+                  value=""
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+                >
+                  <legend
+                    class="PrivateNotchedOutline-legendLabelled-61"
+                  >
+                    <span>
+                      Please provide no of nodes
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+          <div>
+            <style
+              global="true"
+              jsx="true"
+            >
+              
+        .flex-item {
+          width: 50%;
+        }
+      
+            </style>
+          </div>
+        </div>
+      </div>
+      <div
+        class="right-wrapper"
+      >
+        <button
+          style="background: rgb(23, 78, 166); color: rgb(255, 255, 255); padding: 10px 20px; border-radius: 3px; font-size: 16px;"
+          type="submit"
+        >
+          Generate JSON
+        </button>
+        <div
+          class="json-structure"
+        >
+          <textarea
+            placeholder="Fill the form to get JSON"
+            style="min-height: 700px; width: 100%; min-width: 300px;"
+          >
+            {}
+          </textarea>
+          <svg
+            class="copy-button"
+            viewBox="0 0 15 15"
+          >
+            <g
+              id="content-copy"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M395.25,0h-306c-28.05,0-51,22.95-51,51v357h51V51h306V0z M471.75,102h-280.5c-28.05,0-51,22.95-51,51v357    c0,28.05,22.95,51,51,51h280.5c28.05,0,51-22.95,51-51V153C522.75,124.95,499.8,102,471.75,102z M471.75,510h-280.5V153h280.5V510    z"
+                style="transform: scale(0.025);"
+              />
+            </g>
+          </svg>
+          <style
+            global="true"
+            jsx="true"
+          >
+            
+          .copy-button {
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            right: 15px;
+            top: 15px;
+            cursor: pointer;
+            transition: all 150ms ease-in-out;
+          }
+
+          .copy-button:hover {
+            background: black;
+            padding: 3px;
+            border-radius: 5px;
+            fill: white;
+          }
+
+          @keyframes fade-up {
+            0% {
+              opacity: 0;
+            }
+            25% {
+              opacity: 1;
+            }
+            75% {
+              opacity: 1;
+            }
+            100% {
+              opacity: 0;
+              transform: translateY(-120%);
+            }
+          }
+
+          .tooltip {
+            animation: fade-up 2s ease-in-out;
+            animation-fill-mode: forwards;
+            background: #cc1c5d;
+            height: 10px;
+            padding: 2px 8px;
+            border-radius: 3px;
+            color: white;
+            font-family: monospace;
+            font-size: 0.6em;
+          }
+        
+          </style>
+        </div>
+      </div>
+      <style
+        global="true"
+        jsx="true"
+      >
+        
+            .form-wrap {
+              width: 58%;
+              padding: 20px;
+              float: left;
+              position: relative;
+              display:flex;
+              flex-wrap: wrap;
+            }
+            .right-wrapper {
+              width: calc( 42% - 80px);
+              float: right;
+              padding: 20px;
+            }
+            .json-structure {
+              position: relative;
+              margin: 20px 0 0;
+            }
+            .box {
+              border-radius: 4px;
+              box-shadow: 0 2px 7px 0 grey;
+              background-color: white;
+              padding:15px;
+              width:100%;
+              margin-bottom:20px;
+            }
+            .heading{
+              font-size:15px;
+              font-weight:bold;
+              color:undefined
+              padding-bottom:10px;
+            }
+            .error {
+               padding:0 0 10px;
+               text-align:right;
+               color:#bf290b;
+               font-style:italic;
+               font-size:11px;
+            }
+          
+      </style>
+    </div>
+  </div>
+</div>
+`;
