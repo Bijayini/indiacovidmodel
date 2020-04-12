@@ -421,7 +421,7 @@ class CovidForm extends Component {
               value={JSON.stringify(this.state.payload, undefined, 2)}
             />
             <Copy onClick={this.copyConfigToClipboard} />
-            <Button handleChange={this.downloadJson} label="Download JSON" />
+            <Button handleChange={this.downloadJson} disabled={!Object.keys(this.state.payload).length } label="Download JSON" />
             <p style={{fontSize:'13px', color:'red',fontStyle:'italic',marginTop:'5px'}}>(Please Generate JSON before Downloading)</p>
           </div>
         </div>

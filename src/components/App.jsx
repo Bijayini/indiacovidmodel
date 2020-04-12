@@ -13,7 +13,7 @@ const App = () => (
         display: 'block',
       }}
     >
-      <h1>India covid-19 Model</h1>
+      <h1>India COVID-19 Model</h1>
     </header>
     <CovidForm />
   </div>

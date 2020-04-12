@@ -7,7 +7,7 @@ exports[`App should match snapshot 1`] = `
       style="color: rgb(255, 255, 255); background: rgb(23, 78, 166); font-size: 15px; padding: 5px 30px; display: block;"
     >
       <h1>
-        India covid-19 Model
+        India COVID-19 Model
       </h1>
     </header>
     <div
@@ -277,11 +277,29 @@ exports[`App should match snapshot 1`] = `
             Params
           </h1>
           <button
-            style="background: rgb(23, 78, 166); color: rgb(255, 255, 255); padding: 10px 20px; border-radius: 3px; font-size: 16px;"
             type="submit"
           >
             Add Param +
           </button>
+          <style
+            global="true"
+            jsx="true"
+          >
+            
+        button{
+          background: #174EA6;
+          color: #ffffff;
+          padding: 10px 20px;
+          border-radius: 3px;
+          border: 'none',
+          fontSize: '16px',
+        }
+         button:disabled {
+           color: black;
+           background:#cecccc;
+         }
+        
+          </style>
           <style
             global="true"
             jsx="true"
@@ -364,11 +382,29 @@ exports[`App should match snapshot 1`] = `
         class="right-wrapper"
       >
         <button
-          style="background: rgb(23, 78, 166); color: rgb(255, 255, 255); padding: 10px 20px; border-radius: 3px; font-size: 16px;"
           type="submit"
         >
           Generate JSON
         </button>
+        <style
+          global="true"
+          jsx="true"
+        >
+          
+        button{
+          background: #174EA6;
+          color: #ffffff;
+          padding: 10px 20px;
+          border-radius: 3px;
+          border: 'none',
+          fontSize: '16px',
+        }
+         button:disabled {
+           color: black;
+           background:#cecccc;
+         }
+        
+        </style>
         <div
           class="json-structure"
         >
@@ -444,11 +480,30 @@ exports[`App should match snapshot 1`] = `
         
           </style>
           <button
-            style="background: rgb(23, 78, 166); color: rgb(255, 255, 255); padding: 10px 20px; border-radius: 3px; font-size: 16px;"
+            disabled=""
             type="submit"
           >
             Download JSON
           </button>
+          <style
+            global="true"
+            jsx="true"
+          >
+            
+        button{
+          background: #174EA6;
+          color: #ffffff;
+          padding: 10px 20px;
+          border-radius: 3px;
+          border: 'none',
+          fontSize: '16px',
+        }
+         button:disabled {
+           color: black;
+           background:#cecccc;
+         }
+        
+          </style>
           <p
             style="font-size: 13px; color: red; font-style: italic; margin-top: 5px;"
           >
