@@ -41,6 +41,7 @@ const getNodes = nodes => {
   nodes.forEach(node => {
     if (node.node) {
       newNodes.push({
+        node: node.node,
         pop: node.pop
           ? formattingValue(
               node.pop,
