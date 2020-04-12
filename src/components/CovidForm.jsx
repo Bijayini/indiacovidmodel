@@ -22,10 +22,10 @@ class CovidForm extends Component {
       R0: '0',
       E0: '100',
       rate_frac: '1, 1, 1, 1',
-      delI: '',
-      delR: '',
-      delS: '',
-      delE: '',
+      delI: '0',
+      delR: '0',
+      delS: '0',
+      delE: '0',
       Mild0: '0',
       Severe0: '0',
       Severe_H0: '0',
@@ -69,6 +69,7 @@ class CovidForm extends Component {
     };
     this.setState({
       nodes: [...newNodes],
+      payload: {},
     });
   };
 
@@ -228,6 +229,7 @@ class CovidForm extends Component {
     this.setState(prevState => ({
       nodes: [...newNodes],
       no_of_node: value,
+      payload: {},
     }));
   };
 
@@ -236,6 +238,7 @@ class CovidForm extends Component {
     newNodes[nodeIndex] = { ...newNodes[nodeIndex], [fieldKey]: value };
     this.setState({
       nodes: [...newNodes],
+      payload: {},
     });
   };
 
@@ -253,6 +256,7 @@ class CovidForm extends Component {
     }
     this.setState({
       nodes: [...newNodes],
+      payload: {},
     });
   };
 
@@ -263,6 +267,7 @@ class CovidForm extends Component {
     newNodes[nodeIndex].params[index].value = value;
     this.setState({
       nodes: [...newNodes],
+      payload: {},
     });
   };
 
@@ -279,6 +284,7 @@ class CovidForm extends Component {
   handleChange = (key, value) => {
     this.setState({
       [key]: value,
+      payload: {},
     });
   };
 
@@ -295,6 +301,7 @@ class CovidForm extends Component {
           intervention_day: '',
         },
       ],
+      payload: {},
     }));
   };
 
@@ -304,6 +311,7 @@ class CovidForm extends Component {
 
     this.setState({
       params: [...newParams],
+      payload: {},
     });
   };
 
