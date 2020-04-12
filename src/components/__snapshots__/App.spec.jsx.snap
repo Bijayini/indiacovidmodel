@@ -7,7 +7,7 @@ exports[`App should match snapshot 1`] = `
       style="color: rgb(255, 255, 255); background: rgb(23, 78, 166); font-size: 15px; padding: 5px 30px; display: block;"
     >
       <h1>
-        Covid19
+        India covid-19 Model
       </h1>
     </header>
     <div
@@ -374,7 +374,7 @@ exports[`App should match snapshot 1`] = `
         >
           <textarea
             placeholder="Fill the form to get JSON"
-            style="min-height: 700px; width: 100%; min-width: 300px;"
+            style="min-height: 400px; width: 100%; min-width: 300px; margin-bottom: 10px;"
           >
             {}
           </textarea>
@@ -443,6 +443,17 @@ exports[`App should match snapshot 1`] = `
           }
         
           </style>
+          <button
+            style="background: rgb(23, 78, 166); color: rgb(255, 255, 255); padding: 10px 20px; border-radius: 3px; font-size: 16px;"
+            type="submit"
+          >
+            Download JSON
+          </button>
+          <p
+            style="font-size: 13px; color: red; font-style: italic; margin-top: 5px;"
+          >
+            (Please Generate JSON before Downloading)
+          </p>
         </div>
       </div>
       <style

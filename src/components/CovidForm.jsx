@@ -333,8 +333,27 @@ class CovidForm extends Component {
   copyConfigToClipboard = async () => {
     const { payload } = this.state;
     // eslint-disable-next-line no-undef
-    await navigator.clipboard.writeText(JSON.stringify(payload), undefined, 2);
+    await navigator.clipboard.writeText(JSON.stringify(payload, undefined, 2));
     showCopyTooltip();
+  };
+
+  downloadJson = ()=>{
+    const { payload } = this.state;
+
+    const blob = new Blob([JSON.stringify(payload,undefined,2)],{type:'application/json'});
+    let isIE = false || !!document.documentMode;
+    if (isIE) {
+      window.navigator.msSaveBlob(blob1, "payload.json");
+    } else {
+      let url = window.URL || window.webkitURL;
+      let link = url.createObjectURL(blob);
+      let a = document.createElement("a");
+      a.download = "payload.json";
+      a.href = link;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }
   };
 
   render() {
@@ -393,14 +412,17 @@ class CovidForm extends Component {
           <div className="json-structure">
             <textarea
               style={{
-                minHeight: '700px',
+                minHeight: '400px',
                 width: '100%',
                 minWidth: '300px',
+                marginBottom:'10px',
               }}
               placeholder="Fill the form to get JSON"
               value={JSON.stringify(this.state.payload, undefined, 2)}
             />
             <Copy onClick={this.copyConfigToClipboard} />
+            <Button handleChange={this.downloadJson} label="Download JSON" />
+            <p style={{fontSize:'13px', color:'red',fontStyle:'italic',marginTop:'5px'}}>(Please Generate JSON before Downloading)</p>
           </div>
         </div>
         <style jsx="true" global="true">
