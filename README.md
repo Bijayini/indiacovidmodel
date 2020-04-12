@@ -25,7 +25,7 @@
 - Install yarn (if not present)
   https://yarnpkg.com/lang/en/docs/install/
 - git clone
- https://github.com/Bijayini/india-covid19.git
+https://github.com/Bijayini/indiacovidmodel.git
 - yarn install
 
 ### Steps to run project with development build
@@ -49,3 +49,7 @@ Run tests from command line with (at the root of project):
 ```
 $ yarn test
 ```
+
+### Deployed URL: 
+
+https://indiacovidmodel.herokuapp.com/
