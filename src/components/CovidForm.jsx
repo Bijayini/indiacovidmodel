@@ -106,6 +106,7 @@ class CovidForm extends Component {
       r1,
       r2,
       r3,
+      r4,
       params,
       nodes,
     } = this.state;
@@ -212,6 +213,7 @@ class CovidForm extends Component {
         r1: formattingValue(r1, getItemFromKey('r1', inputConfig).formatting),
         r2: formattingValue(r2, getItemFromKey('r2', inputConfig).formatting),
         r3: formattingValue(r3, getItemFromKey('r3', inputConfig).formatting),
+        r4: formattingValue(r4, getItemFromKey('r4', inputConfig).formatting),
         params: getParams(params),
         nodes: getNodes(nodes),
       },
