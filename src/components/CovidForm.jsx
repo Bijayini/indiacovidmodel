@@ -14,13 +14,11 @@ class CovidForm extends Component {
     this.state = {
       pop: '39600000',
       t0: '0',
-      no_of_age_groups: '4',
       D_incubation: '5.2',
       D_infectious: '2.9',
       S0: '-1',
       I0: '50',
       R0: '0',
-      E0: '100',
       rate_frac: '1, 1, 1, 1',
       delI: '0',
       delR: '0',
@@ -77,13 +75,11 @@ class CovidForm extends Component {
     const {
       pop,
       t0,
-      no_of_age_groups,
       D_incubation,
       D_infectious,
       S0,
       I0,
       R0,
-      E0,
       rate_frac,
       delI,
       delR,
@@ -118,10 +114,7 @@ class CovidForm extends Component {
           getItemFromKey('pop', inputConfig).formatting,
         ),
         t0: formattingValue(t0, getItemFromKey('t0', inputConfig).formatting),
-        no_of_age_groups: formattingValue(
-          no_of_age_groups,
-          getItemFromKey('no_of_age_groups', inputConfig).formatting,
-        ),
+        no_of_age_groups:4,
         D_incubation: formattingValue(
           D_incubation,
           getItemFromKey('D_incubation', inputConfig).formatting,
@@ -133,7 +126,7 @@ class CovidForm extends Component {
         S0: formattingValue(S0, getItemFromKey('S0', inputConfig).formatting),
         I0: formattingValue(I0, getItemFromKey('I0', inputConfig).formatting),
         R0: formattingValue(R0, getItemFromKey('R0', inputConfig).formatting),
-        E0: formattingValue(E0, getItemFromKey('E0', inputConfig).formatting),
+        E0: formattingValue(I0, getItemFromKey('I0', inputConfig).formatting) * 2,
         rate_frac: formattingValue(
           rate_frac,
           getItemFromKey('rate_frac', inputConfig).formatting,
@@ -374,7 +367,7 @@ class CovidForm extends Component {
           paddingLeft: '20px',
         }}>Global Details</h1>
         <div className="form-wrap">
-          {globalConfig.map(item => (
+          {inputConfig.map(item => (
             <Input
               handleChange={this.handleChange}
               value={this.state[item.fieldKey]}
@@ -444,6 +437,9 @@ class CovidForm extends Component {
               position: relative;
               display:flex;
               flex-wrap: wrap;
+              border-radius: 4px;
+              box-shadow: 0 2px 7px 0 grey;
+              background-color: white;
             }
             .right-wrapper {
               width: calc( 42% - 80px);

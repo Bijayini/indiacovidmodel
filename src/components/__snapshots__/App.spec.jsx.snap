@@ -34,7 +34,7 @@ exports[`App should match snapshot 1`] = `
               for="pop_frac"
               id="pop_frac-label"
             >
-              Population frac of different age groups
+              Population fraction of different age groups of [0-19],[20-39],[40-59],[60+]
             </label>
             <div
               class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
@@ -44,7 +44,7 @@ exports[`App should match snapshot 1`] = `
                 class="MuiInputBase-input MuiOutlinedInput-input"
                 id="pop_frac"
                 name="pop_frac"
-                placeholder="Population frac of different age groups"
+                placeholder="Population fraction of different age groups of [0-19],[20-39],[40-59],[60+]"
                 type="text"
                 value="0.44,0.35,0.15,0.06"
               />
@@ -56,7 +56,7 @@ exports[`App should match snapshot 1`] = `
                   class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
                 >
                   <span>
-                    Population frac of different age groups
+                    Population fraction of different age groups of [0-19],[20-39],[40-59],[60+]
                   </span>
                 </legend>
               </fieldset>
@@ -157,7 +157,7 @@ exports[`App should match snapshot 1`] = `
               for="P_SEVERE"
               id="P_SEVERE-label"
             >
-              Hospitalization rate by age groups
+              Hospitalization Rate
             </label>
             <div
               class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
@@ -167,7 +167,7 @@ exports[`App should match snapshot 1`] = `
                 class="MuiInputBase-input MuiOutlinedInput-input"
                 id="P_SEVERE"
                 name="P_SEVERE"
-                placeholder="Hospitalization rate by age groups"
+                placeholder="Hospitalization Rate"
                 type="text"
                 value="0.05,  0.15, 0.30, 0.75"
               />
@@ -179,7 +179,7 @@ exports[`App should match snapshot 1`] = `
                   class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
                 >
                   <span>
-                    Hospitalization rate by age groups
+                    Hospitalization Rate
                   </span>
                 </legend>
               </fieldset>
@@ -198,7 +198,7 @@ exports[`App should match snapshot 1`] = `
               for="I0"
               id="I0-label"
             >
-              Number of infections actively circulating
+              Initial number of Infectious persons
             </label>
             <div
               class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
@@ -208,7 +208,7 @@ exports[`App should match snapshot 1`] = `
                 class="MuiInputBase-input MuiOutlinedInput-input"
                 id="I0"
                 name="I0"
-                placeholder="Number of infections actively circulating"
+                placeholder="Initial number of Infectious persons"
                 type="text"
                 value="50"
               />
@@ -220,7 +220,7 @@ exports[`App should match snapshot 1`] = `
                   class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
                 >
                   <span>
-                    Number of infections actively circulating
+                    Initial number of Infectious persons
                   </span>
                 </legend>
               </fieldset>
@@ -236,10 +236,10 @@ exports[`App should match snapshot 1`] = `
             <label
               class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
               data-shrink="true"
-              for="E0"
-              id="E0-label"
+              for="pop"
+              id="pop-label"
             >
-              Number of infections actively circulating
+              Total population
             </label>
             <div
               class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
@@ -247,11 +247,11 @@ exports[`App should match snapshot 1`] = `
               <input
                 aria-invalid="false"
                 class="MuiInputBase-input MuiOutlinedInput-input"
-                id="E0"
-                name="E0"
-                placeholder="Number of infections actively circulating"
+                id="pop"
+                name="pop"
+                placeholder="Total population"
                 type="text"
-                value="100"
+                value="39600000"
               />
               <fieldset
                 aria-hidden="true"
@@ -261,7 +261,991 @@ exports[`App should match snapshot 1`] = `
                   class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
                 >
                   <span>
-                    Number of infections actively circulating
+                    Total population
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="t0"
+              id="t0-label"
+            >
+              Offset Value (Starting day of simulation)
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="t0"
+                name="t0"
+                placeholder="Offset Value (Starting day of simulation)"
+                type="text"
+                value="0"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    Offset Value (Starting day of simulation)
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="D_incubation"
+              id="D_incubation-label"
+            >
+              Length of Incubation period
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="D_incubation"
+                name="D_incubation"
+                placeholder="Length of Incubation period"
+                type="text"
+                value="5.2"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    Length of Incubation period
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="D_infectious"
+              id="D_infectious-label"
+            >
+              Duration patient is infectious
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="D_infectious"
+                name="D_infectious"
+                placeholder="Duration patient is infectious"
+                type="text"
+                value="2.9"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    Duration patient is infectious
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="S0"
+              id="S0-label"
+            >
+              Initial number of Susceptible persons
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="S0"
+                name="S0"
+                placeholder="Initial number of Susceptible persons"
+                type="text"
+                value="-1"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    Initial number of Susceptible persons
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="R0"
+              id="R0-label"
+            >
+              Initial number of Removed(Recovered, Dead) persons
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="R0"
+                name="R0"
+                placeholder="Initial number of Removed(Recovered, Dead) persons"
+                type="text"
+                value="0"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    Initial number of Removed(Recovered, Dead) persons
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="delI"
+              id="delI-label"
+            >
+              Number of new infectious cases (del-I)
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="delI"
+                name="delI"
+                placeholder="Number of new infectious cases (del-I)"
+                type="text"
+                value="0"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    Number of new infectious cases (del-I)
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="delR"
+              id="delR-label"
+            >
+              Number of new Removed cases (del-R)
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="delR"
+                name="delR"
+                placeholder="Number of new Removed cases (del-R)"
+                type="text"
+                value="0"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    Number of new Removed cases (del-R)
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="delS"
+              id="delS-label"
+            >
+              Number of new Susceptible cases (del-S)
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="delS"
+                name="delS"
+                placeholder="Number of new Susceptible cases (del-S)"
+                type="text"
+                value="0"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    Number of new Susceptible cases (del-S)
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="delE"
+              id="delE-label"
+            >
+              Number of new Exposed cases (del-E)
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="delE"
+                name="delE"
+                placeholder="Number of new Exposed cases (del-E)"
+                type="text"
+                value="0"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    Number of new Exposed cases (del-E)
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="Mild0"
+              id="Mild0-label"
+            >
+              Initial number of recovering mild cases
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="Mild0"
+                name="Mild0"
+                placeholder="Initial number of recovering mild cases"
+                type="text"
+                value="0"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    Initial number of recovering mild cases
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="Severe0"
+              id="Severe0-label"
+            >
+              Initial number of recovering severe cases (Severe at home)
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="Severe0"
+                name="Severe0"
+                placeholder="Initial number of recovering severe cases (Severe at home)"
+                type="text"
+                value="0"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    Initial number of recovering severe cases (Severe at home)
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="Severe_H0"
+              id="Severe_H0-label"
+            >
+              Initial number of recovering hospitalized cases ( Severe at hospital)
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="Severe_H0"
+                name="Severe_H0"
+                placeholder="Initial number of recovering hospitalized cases ( Severe at hospital)"
+                type="text"
+                value="0"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    Initial number of recovering hospitalized cases ( Severe at hospital)
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="Fatal0"
+              id="Fatal0-label"
+            >
+              Initial number of Fatalities
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="Fatal0"
+                name="Fatal0"
+                placeholder="Initial number of Fatalities"
+                type="text"
+                value="0"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    Initial number of Fatalities
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="R_Mild0"
+              id="R_Mild0-label"
+            >
+              Initial number of removed mild cases
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="R_Mild0"
+                name="R_Mild0"
+                placeholder="Initial number of removed mild cases"
+                type="text"
+                value="0"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    Initial number of removed mild cases
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="R_Severe0"
+              id="R_Severe0-label"
+            >
+              Initial number of removed hospitalized cases
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="R_Severe0"
+                name="R_Severe0"
+                placeholder="Initial number of removed hospitalized cases"
+                type="text"
+                value="0"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    Initial number of removed hospitalized cases
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="R_Fatal0"
+              id="R_Fatal0-label"
+            >
+              Initial number of Fatalities (Removed)
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="R_Fatal0"
+                name="R_Fatal0"
+                placeholder="Initial number of Fatalities (Removed)"
+                type="text"
+                value="0"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    Initial number of Fatalities (Removed)
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="D_death"
+              id="D_death-label"
+            >
+              Time from end of incubation to death
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="D_death"
+                name="D_death"
+                placeholder="Time from end of incubation to death"
+                type="text"
+                value="20"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    Time from end of incubation to death
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="D_hospital_lag"
+              id="D_hospital_lag-label"
+            >
+              D_hospital_lag
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="D_hospital_lag"
+                name="D_hospital_lag"
+                placeholder="D_hospital_lag"
+                type="text"
+                value="5"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    D_hospital_lag
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="D_recovery_severe"
+              id="D_recovery_severe-label"
+            >
+              D_recovery_severe
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="D_recovery_severe"
+                name="D_recovery_severe"
+                placeholder="D_recovery_severe"
+                type="text"
+                value="28.6"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    D_recovery_severe
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="D_recovery_mild"
+              id="D_recovery_mild-label"
+            >
+              D_recovery_mild
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="D_recovery_mild"
+                name="D_recovery_mild"
+                placeholder="D_recovery_mild"
+                type="text"
+                value="11.1"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    D_recovery_mild
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="r1"
+              id="r1-label"
+            >
+              r1
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="r1"
+                name="r1"
+                placeholder="r1"
+                type="text"
+                value="3.0"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    r1
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="r2"
+              id="r2-label"
+            >
+              r2
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="r2"
+                name="r2"
+                placeholder="r2"
+                type="text"
+                value="2.4"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    r2
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="r3"
+              id="r3-label"
+            >
+              r3
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="r3"
+                name="r3"
+                placeholder="r3"
+                type="text"
+                value="1.2"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    r3
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+              data-shrink="true"
+              for="r4"
+              id="r4-label"
+            >
+              r4
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                id="r4"
+                name="r4"
+                placeholder="r4"
+                type="text"
+                value="0.6"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+                >
+                  <span>
+                    r4
                   </span>
                 </legend>
               </fieldset>
@@ -274,7 +1258,7 @@ exports[`App should match snapshot 1`] = `
           <h1
             class="heading"
           >
-            Interventions
+            Params
           </h1>
           <button
             type="submit"
@@ -523,6 +1507,9 @@ exports[`App should match snapshot 1`] = `
               position: relative;
               display:flex;
               flex-wrap: wrap;
+              border-radius: 4px;
+              box-shadow: 0 2px 7px 0 grey;
+              background-color: white;
             }
             .right-wrapper {
               width: calc( 42% - 80px);

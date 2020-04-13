@@ -21,12 +21,12 @@ const NodeParams = ({
             if (item === 'node') {
               return (
                 <div>
-                  <InputLabel id="demo-simple-select-helper-label">Select Node</InputLabel>
+                  <InputLabel id="demo-simple-select-helper-label">Name of the Node</InputLabel>
                   <Select
                     labelId="select-node"
                     id="select-node"
                     placeholder="Select Node"
-                    value={nodes[nodeIndex][item] || 'Select Node'}
+                    value={nodes[nodeIndex][item] || 'Name of the Node'}
                     style={{
                       width: '100%',
                       padding: '4px 0',

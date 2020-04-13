@@ -1,5 +1,30 @@
 const inputConfig = [
   {
+    fieldKey: 'pop_frac',
+    placeholder: 'Population fraction of different age groups of [0-19],[20-39],[40-59],[60+]',
+    formatting: 'toArray-toFloat',
+  },
+  {
+    fieldKey: 'rate_frac',
+    placeholder: 'Rate multiplier',
+    formatting: 'toArray-toInt',
+  },
+  {
+    fieldKey: 'CFR',
+    placeholder: 'Case Fatality rate by age groups',
+    formatting: 'toArray-toFloat',
+  },
+  {
+    fieldKey: 'P_SEVERE',
+    placeholder: 'Hospitalization Rate',
+    formatting: 'toArray-toFloat',
+  },
+  {
+    fieldKey: 'I0',
+    placeholder: 'Initial number of Infectious persons',
+    formatting: 'toInt',
+  },
+  {
     fieldKey: 'pop',
     placeholder: 'Total population',
     formatting: 'toInt',
@@ -7,14 +32,9 @@ const inputConfig = [
   },
   {
     fieldKey: 't0',
-    placeholder: 'offset',
+    placeholder: 'Offset Value (Starting day of simulation)',
     formatting: 'toInt',
     defaultValue: '',
-  },
-  {
-    fieldKey: 'no_of_age_groups',
-    placeholder: 'No of age groups',
-    formatting: 'toInt',
   },
   {
     fieldKey: 'D_incubation',
@@ -28,87 +48,72 @@ const inputConfig = [
   },
   {
     fieldKey: 'S0',
-    placeholder: 'S0',
+    placeholder: 'Initial number of Susceptible persons',
     formatting: 'toFloat',
   },
   {
-    fieldKey: 'I0',
-    placeholder: 'Number of infections actively circulating',
-    formatting: 'toInt',
-  },
-  {
     fieldKey: 'R0',
-    placeholder: 'Population no longer infectious',
+    placeholder: 'Initial number of Removed(Recovered, Dead) persons',
     formatting: 'toInt',
-  },
-  {
-    fieldKey: 'E0',
-    placeholder: 'Number of infections actively circulating',
-    formatting: 'toInt',
-  },
-  {
-    fieldKey: 'rate_frac',
-    placeholder: 'rate_frac',
-    formatting: 'toArray-toInt',
   },
   {
     fieldKey: 'delI',
-    placeholder: 'delI',
+    placeholder: 'Number of new infectious cases (del-I)',
     formatting: 'toInt',
   },
   {
     fieldKey: 'delR',
-    placeholder: 'delR',
+    placeholder: 'Number of new Removed cases (del-R)',
     formatting: 'toInt',
   },
   {
     fieldKey: 'delS',
-    placeholder: 'delS',
+    placeholder: 'Number of new Susceptible cases (del-S)',
     formatting: 'toInt',
   },
   {
     fieldKey: 'delE',
-    placeholder: 'delE',
+    placeholder: 'Number of new Exposed cases (del-E)',
     formatting: 'toInt',
   },
   {
     fieldKey: 'Mild0',
-    placeholder: 'Mild0',
+    placeholder: 'Initial number of recovering mild cases',
     formatting: 'toInt',
   },
   {
     fieldKey: 'Severe0',
-    placeholder: 'Severe0',
+    placeholder: 'Initial number of recovering severe cases (Severe at home)',
     formatting: 'toInt',
   },
   {
     fieldKey: 'Severe_H0',
-    placeholder: 'Severe_H0',
+    placeholder: 'Initial number of recovering hospitalized cases ( Severe at hospital)',
     formatting: 'toInt',
   },
   {
     fieldKey: 'Fatal0',
-    placeholder: 'Fatal0',
+    placeholder: 'Initial number of Fatalities',
     formatting: 'toInt',
   },
   {
     fieldKey: 'R_Mild0',
-    placeholder: 'R_Mild0',
+    placeholder: 'Initial number of removed mild cases',
     formatting: 'toInt',
   },
   {
     fieldKey: 'R_Severe0',
-    placeholder: 'R_Severe0',
+    placeholder: 'Initial number of removed hospitalized cases',
     formatting: 'toInt',
   },
   {
     fieldKey: 'R_Fatal0',
-    placeholder: 'R_Fatal0',
+    placeholder: 'Initial number of Fatalities (Removed)',
     formatting: 'toInt',
   },
   {
     fieldKey: 'D_death',
-    placeholder: 'D_death',
+    placeholder: 'Time from end of incubation to death',
     formatting: 'toInt',
   },
   {
@@ -125,21 +130,6 @@ const inputConfig = [
     fieldKey: 'D_recovery_mild',
     placeholder: 'D_recovery_mild',
     formatting: 'toFloat',
-  },
-  {
-    fieldKey: 'pop_frac',
-    placeholder: 'pop_frac',
-    formatting: 'toArray-toFloat',
-  },
-  {
-    fieldKey: 'CFR',
-    placeholder: 'CFR',
-    formatting: 'toArray-toFloat',
-  },
-  {
-    fieldKey: 'P_SEVERE',
-    placeholder: 'P_SEVERE',
-    formatting: 'toArray-toFloat',
   },
   {
     fieldKey: 'r1',
@@ -166,7 +156,7 @@ const inputConfig = [
 const globalConfig = [
   {
     fieldKey: 'pop_frac',
-    placeholder: 'Population frac of different age groups',
+    placeholder: 'Population fraction of different age groups of [0-19],[20-39],[40-59],[60+]',
     formatting: 'toArray-toFloat',
   },
   {
@@ -176,7 +166,7 @@ const globalConfig = [
   },
   {
     fieldKey: 'CFR',
-    placeholder: 'Case Fatality rate by age groups',
+    placeholder: 'Case Fatality Rate',
     formatting: 'toArray-toFloat',
   },
   {
@@ -224,7 +214,7 @@ const nodeParamConfig = [
 ];
 
 const paramConfig = {
-  label: 'Interventions',
+  label: 'Params',
   fieldKey: 'nodal_param_change',
   paramKeys: [
     'rates',
