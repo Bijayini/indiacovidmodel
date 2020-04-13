@@ -118,17 +118,17 @@ const inputConfig = [
   },
   {
     fieldKey: 'D_hospital_lag',
-    placeholder: 'D_hospital_lag',
+    placeholder: 'Time to hospitalization',
     formatting: 'toInt',
   },
   {
     fieldKey: 'D_recovery_severe',
-    placeholder: 'D_recovery_severe',
+    placeholder: 'Length of hospital stay',
     formatting: 'toFloat',
   },
   {
     fieldKey: 'D_recovery_mild',
-    placeholder: 'D_recovery_mild',
+    placeholder: 'Recovery time for mild cases',
     formatting: 'toFloat',
   },
   {

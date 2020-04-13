@@ -977,7 +977,7 @@ exports[`App should match snapshot 1`] = `
               for="D_hospital_lag"
               id="D_hospital_lag-label"
             >
-              D_hospital_lag
+              Time to hospitalization
             </label>
             <div
               class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
@@ -987,7 +987,7 @@ exports[`App should match snapshot 1`] = `
                 class="MuiInputBase-input MuiOutlinedInput-input"
                 id="D_hospital_lag"
                 name="D_hospital_lag"
-                placeholder="D_hospital_lag"
+                placeholder="Time to hospitalization"
                 type="text"
                 value="5"
               />
@@ -999,7 +999,7 @@ exports[`App should match snapshot 1`] = `
                   class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
                 >
                   <span>
-                    D_hospital_lag
+                    Time to hospitalization
                   </span>
                 </legend>
               </fieldset>
@@ -1018,7 +1018,7 @@ exports[`App should match snapshot 1`] = `
               for="D_recovery_severe"
               id="D_recovery_severe-label"
             >
-              D_recovery_severe
+              Length of hospital stay
             </label>
             <div
               class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
@@ -1028,7 +1028,7 @@ exports[`App should match snapshot 1`] = `
                 class="MuiInputBase-input MuiOutlinedInput-input"
                 id="D_recovery_severe"
                 name="D_recovery_severe"
-                placeholder="D_recovery_severe"
+                placeholder="Length of hospital stay"
                 type="text"
                 value="28.6"
               />
@@ -1040,7 +1040,7 @@ exports[`App should match snapshot 1`] = `
                   class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
                 >
                   <span>
-                    D_recovery_severe
+                    Length of hospital stay
                   </span>
                 </legend>
               </fieldset>
@@ -1059,7 +1059,7 @@ exports[`App should match snapshot 1`] = `
               for="D_recovery_mild"
               id="D_recovery_mild-label"
             >
-              D_recovery_mild
+              Recovery time for mild cases
             </label>
             <div
               class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
@@ -1069,7 +1069,7 @@ exports[`App should match snapshot 1`] = `
                 class="MuiInputBase-input MuiOutlinedInput-input"
                 id="D_recovery_mild"
                 name="D_recovery_mild"
-                placeholder="D_recovery_mild"
+                placeholder="Recovery time for mild cases"
                 type="text"
                 value="11.1"
               />
@@ -1081,7 +1081,7 @@ exports[`App should match snapshot 1`] = `
                   class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
                 >
                   <span>
-                    D_recovery_mild
+                    Recovery time for mild cases
                   </span>
                 </legend>
               </fieldset>
