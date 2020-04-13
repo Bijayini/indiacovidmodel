@@ -133,22 +133,22 @@ const inputConfig = [
   },
   {
     fieldKey: 'r1',
-    placeholder: 'r1',
+    placeholder: 'Basic Reproduction Number (r1)',
     formatting: 'toFloat',
   },
   {
     fieldKey: 'r2',
-    placeholder: 'r2',
+    placeholder: 'Basic Reproduction Number (r2)',
     formatting: 'toFloat',
   },
   {
     fieldKey: 'r3',
-    placeholder: 'r3',
+    placeholder: 'Basic Reproduction Number (r3)',
     formatting: 'toFloat',
   },
   {
     fieldKey: 'r4',
-    placeholder: 'r4',
+    placeholder: 'Basic Reproduction Number (r4)',
     formatting: 'toFloat',
   },
 ];

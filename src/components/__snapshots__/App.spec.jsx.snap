@@ -1100,7 +1100,7 @@ exports[`App should match snapshot 1`] = `
               for="r1"
               id="r1-label"
             >
-              r1
+              Basic Reproduction Number (r1)
             </label>
             <div
               class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
@@ -1110,7 +1110,7 @@ exports[`App should match snapshot 1`] = `
                 class="MuiInputBase-input MuiOutlinedInput-input"
                 id="r1"
                 name="r1"
-                placeholder="r1"
+                placeholder="Basic Reproduction Number (r1)"
                 type="text"
                 value="3.0"
               />
@@ -1122,7 +1122,7 @@ exports[`App should match snapshot 1`] = `
                   class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
                 >
                   <span>
-                    r1
+                    Basic Reproduction Number (r1)
                   </span>
                 </legend>
               </fieldset>
@@ -1141,7 +1141,7 @@ exports[`App should match snapshot 1`] = `
               for="r2"
               id="r2-label"
             >
-              r2
+              Basic Reproduction Number (r2)
             </label>
             <div
               class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
@@ -1151,7 +1151,7 @@ exports[`App should match snapshot 1`] = `
                 class="MuiInputBase-input MuiOutlinedInput-input"
                 id="r2"
                 name="r2"
-                placeholder="r2"
+                placeholder="Basic Reproduction Number (r2)"
                 type="text"
                 value="2.4"
               />
@@ -1163,7 +1163,7 @@ exports[`App should match snapshot 1`] = `
                   class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
                 >
                   <span>
-                    r2
+                    Basic Reproduction Number (r2)
                   </span>
                 </legend>
               </fieldset>
@@ -1182,7 +1182,7 @@ exports[`App should match snapshot 1`] = `
               for="r3"
               id="r3-label"
             >
-              r3
+              Basic Reproduction Number (r3)
             </label>
             <div
               class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
@@ -1192,7 +1192,7 @@ exports[`App should match snapshot 1`] = `
                 class="MuiInputBase-input MuiOutlinedInput-input"
                 id="r3"
                 name="r3"
-                placeholder="r3"
+                placeholder="Basic Reproduction Number (r3)"
                 type="text"
                 value="1.2"
               />
@@ -1204,7 +1204,7 @@ exports[`App should match snapshot 1`] = `
                   class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
                 >
                   <span>
-                    r3
+                    Basic Reproduction Number (r3)
                   </span>
                 </legend>
               </fieldset>
@@ -1223,7 +1223,7 @@ exports[`App should match snapshot 1`] = `
               for="r4"
               id="r4-label"
             >
-              r4
+              Basic Reproduction Number (r4)
             </label>
             <div
               class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
@@ -1233,7 +1233,7 @@ exports[`App should match snapshot 1`] = `
                 class="MuiInputBase-input MuiOutlinedInput-input"
                 id="r4"
                 name="r4"
-                placeholder="r4"
+                placeholder="Basic Reproduction Number (r4)"
                 type="text"
                 value="0.6"
               />
@@ -1245,7 +1245,7 @@ exports[`App should match snapshot 1`] = `
                   class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
                 >
                   <span>
-                    r4
+                    Basic Reproduction Number (r4)
                   </span>
                 </legend>
               </fieldset>
