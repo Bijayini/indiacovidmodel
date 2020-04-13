@@ -1097,10 +1097,10 @@ exports[`App should match snapshot 1`] = `
             <label
               class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
               data-shrink="true"
-              for="r1"
-              id="r1-label"
+              for="rates"
+              id="rates-label"
             >
-              Basic Reproduction Number (r1)
+              Basic Reproduction Number
             </label>
             <div
               class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
@@ -1108,11 +1108,11 @@ exports[`App should match snapshot 1`] = `
               <input
                 aria-invalid="false"
                 class="MuiInputBase-input MuiOutlinedInput-input"
-                id="r1"
-                name="r1"
-                placeholder="Basic Reproduction Number (r1)"
+                id="rates"
+                name="rates"
+                placeholder="Basic Reproduction Number"
                 type="text"
-                value="3.0"
+                value="2.3"
               />
               <fieldset
                 aria-hidden="true"
@@ -1122,130 +1122,7 @@ exports[`App should match snapshot 1`] = `
                   class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
                 >
                   <span>
-                    Basic Reproduction Number (r1)
-                  </span>
-                </legend>
-              </fieldset>
-            </div>
-          </div>
-        </div>
-        <div
-          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
-        >
-          <div
-            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
-          >
-            <label
-              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
-              data-shrink="true"
-              for="r2"
-              id="r2-label"
-            >
-              Basic Reproduction Number (r2)
-            </label>
-            <div
-              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
-            >
-              <input
-                aria-invalid="false"
-                class="MuiInputBase-input MuiOutlinedInput-input"
-                id="r2"
-                name="r2"
-                placeholder="Basic Reproduction Number (r2)"
-                type="text"
-                value="2.4"
-              />
-              <fieldset
-                aria-hidden="true"
-                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
-              >
-                <legend
-                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
-                >
-                  <span>
-                    Basic Reproduction Number (r2)
-                  </span>
-                </legend>
-              </fieldset>
-            </div>
-          </div>
-        </div>
-        <div
-          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
-        >
-          <div
-            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
-          >
-            <label
-              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
-              data-shrink="true"
-              for="r3"
-              id="r3-label"
-            >
-              Basic Reproduction Number (r3)
-            </label>
-            <div
-              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
-            >
-              <input
-                aria-invalid="false"
-                class="MuiInputBase-input MuiOutlinedInput-input"
-                id="r3"
-                name="r3"
-                placeholder="Basic Reproduction Number (r3)"
-                type="text"
-                value="1.2"
-              />
-              <fieldset
-                aria-hidden="true"
-                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
-              >
-                <legend
-                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
-                >
-                  <span>
-                    Basic Reproduction Number (r3)
-                  </span>
-                </legend>
-              </fieldset>
-            </div>
-          </div>
-        </div>
-        <div
-          style="margin-bottom: 15px; flex: 0 50%; padding: 0px 5px;"
-        >
-          <div
-            class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
-          >
-            <label
-              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
-              data-shrink="true"
-              for="r4"
-              id="r4-label"
-            >
-              Basic Reproduction Number (r4)
-            </label>
-            <div
-              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
-            >
-              <input
-                aria-invalid="false"
-                class="MuiInputBase-input MuiOutlinedInput-input"
-                id="r4"
-                name="r4"
-                placeholder="Basic Reproduction Number (r4)"
-                type="text"
-                value="0.6"
-              />
-              <fieldset
-                aria-hidden="true"
-                class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
-              >
-                <legend
-                  class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
-                >
-                  <span>
-                    Basic Reproduction Number (r4)
+                    Basic Reproduction Number
                   </span>
                 </legend>
               </fieldset>
